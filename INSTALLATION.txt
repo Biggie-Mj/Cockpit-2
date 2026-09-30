@@ -1,0 +1,26 @@
+COCKPIT iPad V2.1.0 — installation sur GitHub Pages
+
+1. Décompressez cette archive dans Fichiers ou sur votre ordinateur.
+2. Ouvrez le dépôt Biggie-Mj/Cockpit-Final sur GitHub.
+3. Choisissez Add file > Upload files.
+4. Déposez le CONTENU de l’archive à la racine du dépôt : index.html, app.js, styles.css, ipad.css, images, manifest.webmanifest et service-worker.js.
+   GitHub ne décompresse pas automatiquement un fichier ZIP : n’envoyez pas le ZIP lui-même.
+5. Validez le commit et attendez la fin du déploiement GitHub Pages.
+6. Ouvrez l’application en ligne dans Safari, fermez-la puis relancez-la pour installer la nouvelle version hors ligne.
+
+Les sessions locales conservent leurs clés de stockage. Une sauvegarde JSON de votre session avant toute mise à jour reste conseillée.
+Les images et fichiers d’origine sont inclus. Aucune compilation ni installation npm n’est nécessaire pour l’application.
+
+Améliorations :
+- Actions TABLE : lieux, retour au lieu actuel et note rapide.
+- Paysage : scène lisible et ressources côte à côte. Portrait / Split View : scène pleine largeur avec accès direct aux panneaux PNJ, Secrets, Rythme et Épinglés.
+- Texte de scène à 16 px et commandes courantes de 44–48 px.
+- Positions stables des joueurs, PNJ présents et secrets non révélés en premier.
+- Révéler un secret en un toucher, avec annulation et méthode détaillée facultative.
+- Note enregistrée puis retour à la scène, ou enchaînement des notes.
+- Recherche insensible aux accents, accès direct à la carte d’un secret.
+- Défilement et contexte de scène conservés après les actions.
+- Portrait autorisé, nouveaux fichiers dans le cache hors ligne.
+- Formulaires adaptés à la hauteur de la fenêtre visible au-dessus du clavier.
+
+Voir VERIFICATION.txt pour les essais automatisés réalisés. Un contrôle dans Safari sur un véritable iPad reste nécessaire pour le clavier logiciel, les zones de sécurité et l’ajout à l’écran d’accueil.

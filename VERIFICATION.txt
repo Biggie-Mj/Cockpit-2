@@ -1,0 +1,15 @@
+Vérifications automatisées Chromium, émulation tactile.
+PASS Paysage 1024 : scène et ressources côte à côte
+PASS Lieux et retour à la scène actuelle
+PASS Spotlights : positions tactiles stables
+PASS Secret : un toucher, journal et annulation
+PASS Note : enregistrer puis revenir à la table
+PASS Notes successives sans fermer le formulaire
+PASS Portrait : panneaux rapides et fiche PNJ accessibles
+PASS Recherche : accès à la carte exacte du secret
+PASS Défilement et contexte conservés après une action
+PASS Rotation et Split View : pas de doublon ni de débordement de page
+PASS Cibles tactiles et texte de scène
+PASS Ressources iPad chargées hors ligne
+PASS Aucune erreur JavaScript dans les parcours vérifiés
+Safari/iPadOS et son clavier logiciel restent à vérifier sur un appareil réel.
